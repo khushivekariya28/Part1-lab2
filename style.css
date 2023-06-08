@@ -1,0 +1,63 @@
+/* element selectors */
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    filter: contrast(130%) brightness(100%);
+}
+
+@media screen and (max-width: 768px) {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+li:nth-child(odd) {
+    font-weight: bold;
+}
+
+/* class selector */
+
+.wrapper {
+    background-color: #F0F0F0;
+    border: 1px solid #442c2c;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body {
+    color: #333;
+    background-image: url(ryunosuke-kikuno-HWGlldyuCSc-unsplash.jpg);
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #aac2e3;
+    color: #fff;
+    border: 3px solid #333;
+    padding: 20px;
+  }
+
+p {
+    color: initial;
+}
+
+footer {
+    text-align: center;
+    color: #777;
+}
